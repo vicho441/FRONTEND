@@ -1,0 +1,46 @@
+.esilo-imagen {
+     background-color:#E5E5E5;
+     text-align: center;
+}
+h1 {
+    color: 
+    #005677;
+    background-color: 
+    #C4C4C4;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+h3 {
+   color: 
+   #005677;
+    background-color: 
+    #C4C4C4;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-align: left;
+}
+.span_primerh3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.span_segudnoh3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.span_tercerh3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.Footer {
+    background-color: 
+    #005677;
+    text-align: center; }
+    
+    .Numero-de-telefono {
+        color: 
+        #FFFFFF;
+        font-weight: bold;
+        text-transform: uppercase;
+    }

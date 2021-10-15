@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+html {
+    font-size: 100px;
+    width: 100px;
+}
+
+/* Aca empieza el header */
+
+.Header_flexbox {
+    display: unset
+}
+    
+.header-descuentos {
+   display: block;
+   width: 100vw;
+    font-size: 15px;
+    background-color: #D1891C;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    padding: 10px;
+}
+.header-heroes {
+    font-size: 40px;
+    background-color: #00669F;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    padding: 18px;
+    position: sticky;
+    top: 0;
+    z-index: 500;
+    color:  #FFFFFF;
+    width: 100vw;
+}
+
+/* Aca empieza el main */
+
+.Main_flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 154px 0px;
+    justify-content: space-evenly;
+    width: 100vw;
+    align-items: center;
+    align-content: center;
+}
+
+.CAJAS_INDIVIDUALES_MAIN {
+    width: 22%;
+}
+.Vector-corazon {
+    position: relative;
+    top: 42px;
+    left: 24px;
+}
+.Imagen_fondo {
+    width: 100%;
+    height: 193px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.Imagen_perfiles {
+    border-radius: 60px;
+    position: relative;
+    bottom: 53px;
+    left: 90px;
+    z-index: 1;
+    height: 118px;
+    width: 1.2rem;
+}
+.Textos_main {
+    background-color: #F3F3F3;
+    position: relative;
+    bottom: 118px;
+    width: 100%;
+}
+.Texto_1 {
+    display: block;
+    font-size: 0.3rem;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    padding-top: 74px;
+}
+.Texto_2 {
+    display: block;
+    font-size: 0.16rem;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 37px;
+    text-align: left;
+    padding: 0px 17px;
+    height: 200px;
+}
+.Texto_3 {
+    display: block;
+    font-size: 0.15rem;
+    padding: 15px 37px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    background-color: #00669F;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-bottom: 18px;
+    color: #F3F3F3;
+    text-align: center;
+}
+
+/* Aca empieza el footer */
+
+footer {
+    background-color: #00669F;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+  }
+  .Texto_footer {
+     display: inline;
+     font-size: 16px;
+      color: #FFF9F9;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-weight: 400;
+  }
+  .simbolomas {
+      background-color: #00669F;
+      height: 20px;
+      width: 20px;
+      border-radius: 10px;
+      color: #FFFFFF;
+      z-index: 300;
+      position: relative;
+      top: 30vh;
+      display: none;
+  }
+
+  /* Aca se viene los condicionales para hacer el sitio web responsive 
+  con estilo de css "movile last" */
+
+@media (max-width: 1200px) {
+    html {
+           font-size: 80px;
+           width: 80px;
+       }
+}
+@media (max-width: 880px) {
+    html {
+        font-size: 100px;
+           width: 100px;
+    }
+ .CAJAS_INDIVIDUALES_MAIN {
+        width: 40%;
+    }
+    .simbolomas {
+        display: inline-block;
+    }
+}
+@media (max-width: 680px) {
+    html {
+           font-size: 80px;
+           width: 80px;
+       }
+}
+@media (max-width: 470px) {
+    html {
+           font-size: 70px;
+           width: 70px;
+       }
+}
+@media (max-width: 368px) {
+    html {
+        font-size: 80px;
+           width: 80px;
+    }
+ .CAJAS_INDIVIDUALES_MAIN {
+        width: 60%;
+    }
+    .Texto_footer {
+        font-size: 0.14rem;
+    }
+    #ID_superman {
+        display: none;
+    }
+}
